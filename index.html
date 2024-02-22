@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn" class="opebtn" onclick="openNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="img/logo.PNG" class="logo" alt="">
+        <span style="position: relative; bottom: 10px; right: 35px; color: red;">NG</span>
+        
+            <div class="search-box">
+                <input type="text" class="search-bar" placeholder="search">
+                <a class="search-btn"><img src="img/search.png" alt=""></a>
+                <a class="micro"><img src="img/microphone.png" alt=""></a>
+            </div>
+
+        
+            <div class="signIn">
+                <img src="img/dot.png" class="icon" alt="">
+                <img src="img/signIn.png" class="icon2" alt="">
+                <h6 class="signInText">SIGN IN</h6>
+            </div>
+    </nav>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#" class="links active"><img src="img/home.PNG" alt="">home</a>
+        <a href="#" class="links"><img src="img/explore.PNG" alt="">explore</a>
+        <a href="#" class="links"><img src="img/subscription.PNG" alt="">subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="img/library.PNG" alt="">You</a>
+        <a href="#" class="links"><img src="img/history.PNG" alt="">history</a>
+        <hr class="seperator">
+        <p>Sign In to like videos, comment, and subscribe.</p>
+        <div class="signIn" style="margin-left: 25px;">
+            <img src="img/signIn.png" class="icon2" alt="">
+            <h6 class="signInText">SIGN IN</h6>
+        </div>
+
+        <hr class="seperator">
+        <div class="header-text">Subscriptions</div>
+              
+        <a href="#" class="links"><img src="img/trending.png" alt="">Trending</a>
+        <a href="#" class="links"><img src="img/music.png" alt="">Music</a>
+        <a href="#" class="links"><img src="img/gaming.png" alt="">Gaming</a>
+        <a href="#" class="links"><img src="img/news.png" alt="">News</a>
+        <a href="#" class="links"><img src="img/sport.png" alt="">Sport</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="img/browse.png" alt="">Browse Channels</a>
+        <hr class="seperator">
+      </div>
+      
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "300px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+      }
+      </script>
+
+
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="img/home.PNG" alt="">home</a>
+        <a href="#" class="links"><img src="img/explore.PNG" alt="">explore</a>
+        <a href="#" class="links"><img src="img/subscription.PNG" alt="">subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="img/library.PNG" alt="">You</a>
+        <a href="#" class="links"><img src="img/history.PNG" alt="">history</a>
+        <hr class="seperator">
+        <p>Sign In to like videos, comment, and subscribe.</p>
+        <div class="signIn" style="margin-left: 25px;">
+            <img src="img/signIn.png" class="icon2" alt="">
+            <h6 class="signInText">SIGN IN</h6>
+        </div>
+
+        <hr class="seperator">
+        <div class="header-text">Subscriptions</div>
+              
+        <a href="#" class="links"><img src="img/trending.png" alt="">Trending</a>
+        <a href="#" class="links"><img src="img/music.png" alt="">Music</a>
+        <a href="#" class="links"><img src="img/gaming.png" alt="">Gaming</a>
+        <a href="#" class="links"><img src="img/news.png" alt="">News</a>
+        <a href="#" class="links"><img src="img/sport.png" alt="">Sport</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="img/browse.png" alt="">Browse Channels</a>
+        <hr class="seperator">
+    </div>
+
+    <div class="filters">
+        <a href="#" class="filter-options active">all</a>
+        <a href="#" class="filter-options">Music</a>
+        <a href="#" class="filter-options">Nollywood</a>
+        <a href="#" class="filter-options">Live</a>
+        <a href="#" class="filter-options">News</a>
+        <a href="#" class="filter-options">Playlist</a>
+        <a href="#" class="filter-options">Martial Art Movies</a>
+        <a href="#" class="filter-options">Contemporary Worship Music</a>
+        <a href="#" class="filter-options">Gaming</a>
+        <a href="#" class="filter-options">Action Thriller</a>
+        <a href="#" class="filter-options">Game Shows</a>
+    </div>
+    
+
+    <div class="video-banner">
+        <div class="banner">
+            <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="banner2">
+            <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="banner3">
+            <img src="img/banner.jpg" alt="">
+            <h3>Watch More</h3>
+            <h5>Sponsored . Showmax</h5>
+            <button>Subscribe</button>
+        </div>
+
+    </div>
+
+    <div class="video-container">
+        <div class="video">
+            <img src="img/batman.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/prof2.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">TABLE FOR FOUR - CHIDI DIKE,  CLINTON JOSHUA, CHIOMA NWAOHA, ERONINI...</h4>
+                    <p class="channel-name">NollyVerse - Full Movie</p>
+                    <p class="videoStats">454k views &#183; 7 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img src="img/action.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/prof3.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">TABLE FOR FOUR - CHIDI DIKE,  CLINTON JOSHUA, CHIOMA NWAOHA, ERONINI...</h4>
+                    <p class="channel-name">NollyVerse - Full Movie</p>
+                    <p class="videoStats">454k views &#183; 7 days ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img src="img/poster.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/prof2.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">TABLE FOR FOUR - CHIDI DIKE,  CLINTON JOSHUA, CHIOMA NWAOHA, ERONINI...</h4>
+                    <p class="channel-name">NollyVerse - Full Movie</p>
+                    <p class="videoStats">454k views &#183; 7 days ago</p>
+                </div>
+            </div>
+        </div>
+
+    
+</body>
+</html>
